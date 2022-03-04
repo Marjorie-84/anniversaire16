@@ -1,0 +1,31 @@
+body{
+    background-color: skyblue;
+    background-image: -webkit-linear-gradient(90deg, skyblue 0%, steelblue 100%);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    text-align: center;
+    color: #00AFE8;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: #FEBA69;
+}
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 30%;
+    box-shadow: 5px 5px 20px 20px white;
+}
+.birthday{
+    padding-top: 35px;
+    margin-bottom: 45px;
+    font-size: 50px;
+    color:#4682B4;
+    text-shadow: 5px 5px 8px white;
+	};
