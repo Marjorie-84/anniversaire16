@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-h1{
+.h1{
     text-align: center;
     color: #00AFE8;
     font-size: 50px;
@@ -29,3 +29,32 @@ img{
     color:#4682B4;
     text-shadow: 5px 5px 8px white;
 	};
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    .h1{
+        font-size: 30px;
+        color: #FEBA69;
+    }
+    h2{
+        font-size: 30px;
+        color: #00AFE8;
+    }
+    img{
+        width: 75%;
+    }
+    .birthday{
+        font-size: 25px;
+        text-align: center;
+    }
+}
